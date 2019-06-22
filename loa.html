@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>List</title>
+<link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 50px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+ <center><h1><i>List of appointments</i></h1>
+   <div class="container">
+  <div class="page-header">
+    <form action="dateapp.php" method="post">
+    <label>Date  :</label>
+    <input type="date" data-date-inline-picker="true" class="form-control">
+    <br>
+    <br>
+    <br>
+    <a href="dateapp.php" class="btn btn-primary">Submit</a>
+       
+    </form>
+</div>
+</div>  
+</center>
+
+</body>
+    
+</html>
